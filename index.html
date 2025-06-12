@@ -129,7 +129,7 @@
               <img src="./images/onedev.jpg" alt="Marek Guerrero" width="264" />
               <div class="name-dev">
                 <h3 class="feature-title">Marek Guerrero</h3>
-                <p class="feature-text">Product Designer</p>
+                <p class="feature-text sec-three">Product Designer</p>
                 <ul class="list-soc-icons">
                   <li class="listy-list">
                     <a class="link-socialy" href=""
@@ -170,7 +170,7 @@
               <img src="./images/twodev.jpg" alt="Tom Ford" width="264" />
               <div class="name-dev">
                 <h3 class="feature-title">Tom Ford</h3>
-                <p class="feature-text">Frontend Developer</p>
+                <p class="feature-text sec-three">Frontend Developer</p>
                 <ul class="list-soc-icons">
                   <li class="listy-list">
                     <a class="link-socialy" href=""
@@ -215,7 +215,7 @@
               />
               <div class="name-dev">
                 <h3 class="feature-title">Camila Garcia</h3>
-                <p class="feature-text">Marketing</p>
+                <p class="feature-text sec-three">Marketing</p>
                 <ul class="list-soc-icons">
                   <li class="listy-list">
                     <a class="link-socialy" href=""
@@ -258,7 +258,7 @@
               <img src="./images/fourdev.jpg" alt="Daniel Wilson" width="264" />
               <div class="name-dev">
                 <h3 class="feature-title">Daniel Wilson</h3>
-                <p class="feature-text">UI Designer</p>
+                <p class="feature-text sec-three">UI Designer</p>
                 <ul class="list-soc-icons">
                   <li class="listy-list">
                     <a class="link-socialy" href=""
@@ -460,6 +460,54 @@
           </ul>
         </div>
       </div>
+      <div class="footer-subscribe">
+  <p class="footer-subscribe-title">Subscribe</p>
+  <form class="subscribe-form">
+    <input type="email" class="subscribe-input" name="subscribe">
+    <button type="submit" class="subscribe-button">
+      Subscribe
+      <svg class="subscribe-icon" width="24" height="24">
+        <use href="./images/sprite.svg#icon-send"></use>
+      </svg>
+    </button>
+  </form>
+</div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="modal-close">
+          <svg class="icon-cross" width="8" height="8"><use href="./images/sprite.svg#icon-cross"></use></svg>
+        </button>
+        <p class="modal-title section-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <label class="modal-label">
+            Name
+            <input type="text" class="modal-input" name="user-name" />
+            <svg class="modal-svg-icon" width="12" height="12"><use href="./images/sprite.svg#icon-man"></use></svg>
+          </label>
+          <label class="modal-label">
+            Phone
+            <input type="tel" class="modal-input" name="user-phone" />
+            <svg class="modal-svg-icon" width="12" height="12"><use href="./images/sprite.svg#icon-telephone"></use></svg>
+          </label>  
+          <label class="modal-label">
+            Email  
+            <input type="email" class="modal-input" name="user-email" />
+            <svg class="modal-svg-icon" width="12" height="12"><use href="./images/sprite.svg#icon-letter"></use></svg>
+          </label>
+          <label class="modal-label">
+            Comment
+            <textarea name="comment" class="modal=textarea" placeholder="Text input"></textarea>
+          </label>
+          <label class="modal-checkbox-label">
+            <input type="checkbox" name="polict" class="modal-checkbox">
+            <span class="modal-checkbox-text">I accept the terms and conditions of the
+              <a href="" class="modal-policy-link">Privacy Policy</a>
+            </span>
+          </label>
+          <button class="button-modal" type="submit">Send</button>
+        </form>
+      </div>
+    </div>  
   </body>
 </html>
