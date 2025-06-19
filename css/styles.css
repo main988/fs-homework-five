@@ -710,28 +710,29 @@ a {
 }
 
 .modal-checkbox:checked + .modal-checkbox-label .checkbox-custom {
-  background-color: var(#404bbf);
+  background-color: #404bbf;
   border: none;
-  fill: var(#f4f4fd);
+  fill: #f4f4fd;
 }
 
 .modal-policy-link {
   text-decoration: underline;
-  color: var(#4d5ae5);
+  color: #4d5ae5;
 }
 
 .checkbox-custom {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border 250ms cubic-bezier(0.4, 0, 0.2, 1),
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 8px;
 }
 
 
