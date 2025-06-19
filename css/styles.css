@@ -551,18 +551,18 @@ a {
   top: 24px;
   right: 24px;
   padding: 0;
-  background: transparent;
-  transition: background-color 0.3s;
   cursor: pointer;
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover,
-.modal-close:focus {
+.modal-close:hover .icon-cross,
+.modal-close:focus .icon-cross {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-cross {
@@ -715,19 +715,19 @@ a {
 }
 
 .checkbox-custom {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
-  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border 250ms cubic-bezier(0.4, 0, 0.2, 1),
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .button-modal {
   background-color: #4D5AE5;
@@ -740,12 +740,11 @@ a {
   display: block;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;``
+  border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 0.3s;
 }
 
 .button-modal:hover {
