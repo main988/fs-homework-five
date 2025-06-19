@@ -703,15 +703,15 @@ a {
   fill: transparent;
 }
 
-.modal-checkbox:checked + .modal-checkbox-label .checkbox-custom {
-  background-color: var(#404bbf);
+.modal-checkbox:checked + .modal-checkbox-label > .checkbox-custom {
+  background-color: #404bbf;
   border: none;
-  fill: var(#f4f4fd);
+  fill:#f4f4fd;
 }
 
 .modal-policy-link {
   text-decoration: underline;
-  color: var(#4d5ae5);
+  color: #4d5ae5;
 }
 
 .checkbox-custom {
