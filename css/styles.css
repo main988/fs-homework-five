@@ -634,8 +634,12 @@ a {
   transition: border-color 0.3s;
 }
 
-.modal-input:focus,
 .modal-textarea:focus {
+  outline: none;
+  border-color: #4d5ae5;
+}
+
+.modal-input:focus {
   outline: none;
   border-color: #4d5ae5;
 }
@@ -649,9 +653,10 @@ a {
   transform: translateY(-50%);
 }
 
-.modal-svg-icon:focus {
+.input-and-icon input:focus + .modal-svg-icon {
   fill: #4D5AE5;
 }
+
 
 .text-areas {
   margin-bottom: 16px;
@@ -688,7 +693,7 @@ a {
   gap: 8px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(#8e8f99);
+  color: #8e8f99;
 }
 
 .modal-checkbox-text {
