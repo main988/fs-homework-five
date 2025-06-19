@@ -630,7 +630,6 @@ a {
   position: relative;
 }
 
-.modal-input,
 .modal-textarea {
   padding: 12px 12px 12px 36px;
   border: 1px solid rgba(46, 47, 66, 0.2);
@@ -710,14 +709,14 @@ a {
 }
 
 .modal-checkbox:checked + .modal-checkbox-label .checkbox-custom {
-  background-color: #404bbf;
+  background-color: var(#404bbf);
   border: none;
-  fill: #f4f4fd;
+  fill: var(#f4f4fd);
 }
 
 .modal-policy-link {
   text-decoration: underline;
-  color: #4d5ae5;
+  color: var(#4d5ae5);
 }
 
 .checkbox-custom {
